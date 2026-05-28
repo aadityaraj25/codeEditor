@@ -5,14 +5,24 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "nodemon server.js",
+    "server:prod": "node server.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "codemirror": "^5.65.21",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
     "react": "^19.2.6",
+    "react-avatar": "^5.0.4",
     "react-dom": "^19.2.6",
-    "react-router-dom": "^7.15.1"
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.15.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
